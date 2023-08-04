@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Pokédex</h1>
+    <!-- the pokedex -->
+    <div class="pokedex">
+        <img src="pokedex.png" alt="Pokedex">
+    </div>
+    <div class="container">
+        <!-- the left section of the pokedex -->
+        <div class="poke-display">
+            <!-- the pokemon image -->
+            <img class="poke-img" alt="Pokemon">
+        </div>
+
+        <!-- the right section of the pokedex -->
+        <div class="poke-info">
+
+            <!-- the search bar -->
+            <select id="pokemonSelect">
+                <option value="">Select a Pokémon</option>
+            </select>
+
+            <!-- pokemon info -->
+            <div class="info-wrapper">
+                <div>Name: 
+                    <span class="name">__</span>
+                </div>
+                <div>Type: 
+                    <span class="type">__</span>
+                </div>
+                <div>Height: 
+                    <span class="height">__</span> m
+                </div>
+                <div>Weight: 
+                    <span class="weight">__</span> kg
+                </div>
+                <div>Bio: 
+                    <p class="bio">__</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
